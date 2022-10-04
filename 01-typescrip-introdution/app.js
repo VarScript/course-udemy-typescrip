@@ -1,3 +1,7 @@
 "use strict";
 const msg = 'Hello word';
-console.log(msg);
+const hero = {
+    name: 'Ironman',
+    age: 41,
+};
+console.log(hero.age);
