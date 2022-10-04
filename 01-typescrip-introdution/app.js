@@ -1,2 +1,3 @@
-var msg = 'Hello word';
+"use strict";
+const msg = 'Hello word';
 console.log(msg);
