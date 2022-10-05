@@ -39,6 +39,18 @@
     const poder: any = '100';
     const largoDelPoder:number = (poder as string).length;
     console.log( largoDelPoder );
+
+
+    enum enumeracion {
+      a=10,
+      b,
+      c=9,
+      d
+    }
+
+    let a = enumeracion.d;
+    console.log(a);
+    
   
   })()
   
