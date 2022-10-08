@@ -7,7 +7,11 @@
     };
     flash = {
         name: 'Clark Clein',
-        age: 63,
+        // age: 63,
         powers: ['Super strong'],
+        // getName(){
+        //     return this.name;
+        // }
     };
+    console.log(flash);
 })();
