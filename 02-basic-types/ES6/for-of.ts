@@ -22,7 +22,7 @@
     
     const avengers: Avengers[] = [ironman,thor,capAmerica]
     for (const avenger of avengers) {
-        console.log(avenger.name, avenger.weapon);
+        // console.log(avenger.name, avenger.weapon);
         
     }
 })()

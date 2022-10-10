@@ -40,7 +40,6 @@ var __rest = (this && this.__rest) || function (s, e) {
     };
     const avengers = [ironman, thor, capAmerica];
     for (const avenger of avengers) {
-        console.log(avenger.name, avenger.weapon);
     }
 })();
 (() => {
