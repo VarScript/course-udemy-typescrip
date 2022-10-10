@@ -12,7 +12,6 @@
         powers: ['Super velocity']
     }
 
-
     console.log( flash);
     
 })()
