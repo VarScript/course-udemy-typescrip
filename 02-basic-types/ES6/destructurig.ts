@@ -22,7 +22,15 @@
     const printAvengers = ( { ironman, ...restA }:Avengers ) => {
         console.log(ironman, restA.active);
     }
+    // printAvengers(avengers);
 
-    printAvengers(avengers);
+    
+    // -- Destructuring array
+
+    const avengersArr: [string, boolean, number] = ['Cap. America', true, 150];
+
+    const [ name , active, power ] = avengersArr;
+    // console.log({name, active, power});
+    
 
 })()
