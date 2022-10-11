@@ -21,7 +21,6 @@
     const printName = (character) => {
         console.log(character.realName);
     };
-    printName(magneto);
 })();
 (() => {
     class Avenger {
@@ -68,5 +67,26 @@
         }
     }
     const wolverine = new Xmen('Wolverine', 'Logan', true);
+})();
+(() => {
+    class Apocalypse {
+        constructor(name) {
+            this.name = name;
+        }
+        static callApocalypse() {
+            if (!Apocalypse.intance) {
+                Apocalypse.intance = new Apocalypse('I am the unic apocalypse...');
+            }
+            return Apocalypse.intance;
+        }
+        changeName(newName) {
+            this.name = newName;
+        }
+    }
+    const apocalypse1 = Apocalypse.callApocalypse();
+    const apocalypse2 = Apocalypse.callApocalypse();
+    const apocalypse3 = Apocalypse.callApocalypse();
+    apocalypse1.changeName('Fabito');
+    console.log(apocalypse1, apocalypse2, apocalypse3);
 })();
 //# sourceMappingURL=main.js.map
