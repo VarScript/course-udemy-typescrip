@@ -14,4 +14,24 @@
         }
     };
 })();
+(() => {
+    const client = {
+        name: 'Fabio',
+        age: 21,
+        address: {
+            id: 120,
+            zip: 'HS6',
+            city: 'Roma'
+        }
+    };
+    const client2 = {
+        name: 'Any',
+        age: 24,
+        address: {
+            id: 140,
+            zip: 'HS6',
+            city: 'China'
+        }
+    };
+})();
 //# sourceMappingURL=main.js.map
