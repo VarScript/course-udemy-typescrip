@@ -87,6 +87,5 @@
     const apocalypse2 = Apocalypse.callApocalypse();
     const apocalypse3 = Apocalypse.callApocalypse();
     apocalypse1.changeName('Fabito');
-    console.log(apocalypse1, apocalypse2, apocalypse3);
 })();
 //# sourceMappingURL=main.js.map

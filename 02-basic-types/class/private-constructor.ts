@@ -21,7 +21,7 @@
 
     apocalypse1.changeName('Fabito')
 
-    console.log(apocalypse1, apocalypse2, apocalypse3);
+    // console.log(apocalypse1, apocalypse2, apocalypse3);
     
 
     // const apocalypse = new Apocalypse('I am the Apocalypse...')
