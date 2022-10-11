@@ -5,7 +5,7 @@
             public name: string,
             public realName: string,
         ){
-            console.log('Consturctor Avenger Called');
+            // console.log('Consturctor Avenger Called');
         }
 
         protected getFullName(){
@@ -20,7 +20,7 @@
             public isMutand: boolean
         ) {
             super(name, realName);
-            console.log('Constructor Xmen called');
+            // console.log('Constructor Xmen called');
         }
 
         get fullName() {
@@ -29,7 +29,7 @@
 
         set fullName(name: string) {
             if (name.length < 3) {
-                throw new Error('The name must be greater than three letters')
+                throw new Error('The name must be greater than three letters');
             }
             this.name = name;
         }
@@ -41,8 +41,8 @@
     }
 
     const wolverine = new Xmen('Wolverine','Logan', true);
-    wolverine.fullName = 'Fabio';
-    console.log(wolverine.fullName);
+    // wolverine.fullName = 'Fabio';
+    // console.log(wolverine.fullName);
     // wolverine.getFullNameXmen();
     
 })()
