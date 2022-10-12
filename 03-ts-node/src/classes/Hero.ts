@@ -6,3 +6,5 @@ export class Hero {
         public age:number,
     ){}
 }
+
+export const myName = 'Fabio';
