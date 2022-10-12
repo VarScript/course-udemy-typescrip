@@ -1,3 +1,4 @@
+import powers from '../data/powers';
 
 export class Hero {
     constructor(
@@ -5,6 +6,10 @@ export class Hero {
         public powerId:number,
         public age:number,
     ){}
+
+    get power():string {
+        return powers.find( power => power.id === this.powerId )?.desc || 'Not found' ;
+    }
 }
 
 export const myName = 'Fabio';

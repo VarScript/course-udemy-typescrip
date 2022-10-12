@@ -1,4 +1,4 @@
- export interface Power {
+export interface Power {
     id: number, 
     desc: string
 }
@@ -10,7 +10,7 @@ const powers:Power[] = [
     },
     {
         id: 2,
-        desc: 'Drugs    '
+        desc: 'Drugs'
     }
 ];
 
