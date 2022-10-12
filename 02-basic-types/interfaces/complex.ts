@@ -3,7 +3,8 @@
     interface Client {
         name: string,
         age?: number,
-        address?: Address
+        address?: Address,
+        getFullAddress?( id: string ):string
     }
 
     interface Address {
